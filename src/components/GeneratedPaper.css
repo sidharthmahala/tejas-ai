@@ -1,0 +1,50 @@
+.generated-paper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .paper-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 794px;  /* A4 paper width in pixels */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .questions {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 800px) {
+    .paper-content {
+      max-width: 90%;  /* Adjust width for smaller screens */
+    }
+  }
+  
