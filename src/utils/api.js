@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 // Function to generate exam questions
 export const generateQuestions = async (class1, subject, syllabus, level, numQuestions, maxMarks) => {
   const apiKey = process.env.REACT_APP_OPENAI_API_KEY; // Get the API key from environment variables
